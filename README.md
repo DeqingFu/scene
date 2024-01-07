@@ -1,16 +1,11 @@
 # SCENE: Self-Labeled Counterfactuals for Extrapolating to Negative Examples
 
-This is an official implementation for our paper, [SCENE: Self-Labeled Counterfactuals for Extrapolating to Negative Examples](https://arxiv.org/abs/2305.07984).
+This is an official implementation for our paper, [SCENE: Self-Labeled Counterfactuals for Extrapolating to Negative Examples](https://arxiv.org/abs/2305.07984), EMNLP 2023.
 
 ```bibtex
 @inproceedings{fu-etal-2023-scene,
     title = "{SCENE}: Self-Labeled Counterfactuals for Extrapolating to Negative Examples",
-    author = "Fu, Deqing  and
-      Godbole, Ameya  and
-      Jia, Robin",
-    editor = "Bouamor, Houda  and
-      Pino, Juan  and
-      Bali, Kalika",
+    author = "Fu, Deqing and Godbole, Ameya and Jia, Robin",
     booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
     month = dec,
     year = "2023",
