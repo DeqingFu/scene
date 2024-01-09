@@ -514,7 +514,7 @@ def main():
         print(f"loading retrieval data from {args.retrieval_data_path}")
         df = pd.read_csv(args.retrieval_data_path)
         retrieval_column_names = df.columns[:-1]
-        df_index_context_title = pd.read_csv(args.retrieve_context_title_path)
+        df_index_context_title = pd.read_csv(args.retrieval_context_title_path)
         index_to_context = {i : c for (i,c) in enumerate(df_index_context_title['context'].tolist())}
         context_to_index = {c: i for i, c in index_to_context.items()}
         index_to_title = {i : t for (i,t) in enumerate(df_index_context_title['title'].tolist())}

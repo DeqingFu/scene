@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source ~/.bashrc
-source activate scene
+conda activate scene
 
 NUM_PERT=1
 NUM_PERM=0
